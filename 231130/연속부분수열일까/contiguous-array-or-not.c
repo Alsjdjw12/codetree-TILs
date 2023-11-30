@@ -39,7 +39,7 @@ int main() {
     fun(p1, p2, n, m);
     if (sw==1)
     {
-        printf("yes\n");
+        printf("Yes\n");
     }
     if (sw==0)
     {
