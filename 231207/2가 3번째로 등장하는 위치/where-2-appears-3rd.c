@@ -2,7 +2,7 @@
 
 int main() {
     int n;
-    int i;
+    int i,j;
     int count=0;
     scanf("%d", &n);
     int str[100];
@@ -15,10 +15,11 @@ int main() {
         if(str[i]=2)
         {
             count++;
-        }
         if (count==3)
         {
             printf("%d", i+1);
+            break;
+        }
         }
     }
     return 0;
