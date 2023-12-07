@@ -12,7 +12,7 @@ int main() {
     }
      for(i=0;i<n;i++)
     {
-        if(str[i]=2)
+        if(str[i]==2)
         {
             count++;
         if (count==3)
